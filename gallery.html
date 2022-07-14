@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <meta lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <head>
+        <title>ABC Public School</title>
+        
+        </head>
+    <body>
+        <!--nav bar for different section-->
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img src="images1.png" alt="brand-image" style="width: 40px" class="navbar-brand rounded-circle">
+
+                <a href="#"  class="navbar-brand">ABC School Of Excellence</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbar-Text" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link active">Gallery</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        
+                    </ul>
+                    <form  class="d-flex " >
+                        <input type="search" placeholder="Search" aria-label="Search" class="form-control me-2 bg-light">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                    
+                
+                </div>
+            </div>
+       </nav>
+       
+            <!--carousel to auto move image-->
+            
+        <div id="tgt" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                <li class="active" data-target="#tgt" data-slide-to="0"></li>
+                <li data-target="#tgt" data-slide-to="0"></li>
+                <li data-target="#tgt" data-slide-to="1"></li>
+                <li data-target="#tgt" data-slide-to="2"></li>
+                <li data-target="#tgt" data-slide-to="3"> </li>
+                <li data-target="#tgt" data-slide-to="4"></li>
+               </ol>
+               <div class="carousel-inner" style="">
+                <div class="carousel-item active">
+                    <img src="gallery-image-1.jpg"  alt="" class="d-block w-100 h-100">
+                </div>
+                <div class="carousel-item active">
+                    <img src="gallery-image-2.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item active">
+                    <img src="gallery-image-3.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item active">
+                    <img src="gallery-image-4.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item active">
+                    <img src="gallery-image-6.jpg" alt="" class="d-block w-100">
+                </div>
+               </div>
+                <a class="carousel-control-prev" role="button" data-bs-target="#tgt" data-slide="prev"> 
+                    <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" role="button" data-bs-target="#tgt" data-slide="next">
+                    <span class="sr-only">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    
+                </a>
+        </div>
+        <footer >
+            <div class="bg-dark" >
+                <div class="row">
+                    <div class="col m-3">
+                        <h4 class="text-light">abc group</h4>
+                        <p class="text-light">New York City</p>
+                        <p class="text-light">abc@io</p>
+                    </div>
+                    <div class="col">
+                        <form action="" class=" was-validated">
+                            <div class="m-3 form-floating ">
+                                
+                                <input required type="email" class="form-control" placeholder="Enter Email Address">
+                                <label for="email" class="form-label ">Email</label>
+                            </div>
+                            <div class="m-3 form-floating">
+                                
+                                
+                                <input required type="password" class="form-control" name="pwd" placeholder="Enter Password">
+                                <label for="pwd" class="form-label ">Password</label>
+                            </div>
+                            <button class="btn btn-primary m-3" type="submit">log In</button>
+                            <button class="btn btn-primary m-3">Sign Up</button>
+                            <a href="#" class="text-light m-3">Forget Password?</a>
+                        </form>
+                    </div>
+                </div>
+        
+            </div>
+            
+        
+        </footer>
+        
+    </body>
+    </html>
